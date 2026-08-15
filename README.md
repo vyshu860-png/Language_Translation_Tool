@@ -1,554 +1,109 @@
-# 🌐 AI Language Translation Tool
 
-> **A professional, AI-powered language translation application built with Streamlit for fast, accessible, and seamless multilingual communication.**
 
-Developed by **Kunchala Naga Vaishnavi**
-**Sam AI Technologies**
+🌐 Language Translation Tool
 
----
+A simple and interactive Language Translation Tool built using Python, Streamlit, and Deep Translator.
+The application allows users to enter text, select a target language, and instantly view the translated output.
 
-## 📌 Overview
+🚀 Live Demo
 
-The **AI Language Translation Tool** is a modern web application designed to translate text between multiple languages through a simple and intuitive interface.
+🔗 Streamlit App: https://languagetranslationtool-6jrcmhe4qbsnsrujrugakw.streamlit.app/
 
-Built with **Python and Streamlit**, the application provides a lightweight and user-friendly experience while demonstrating the practical use of AI and language technologies.
+📌 Project Overview
 
-Whether you're translating a short sentence, paragraph, or larger piece of text, this tool provides a convenient way to overcome language barriers.
+The Language Translation Tool is designed to make multilingual communication easier by providing a simple interface for translating text between different languages.
 
----
+Users can:
 
-## ✨ Key Features
+- Enter text to be translated
+- Select the source language
+- Select the target language
+- Get the translated text instantly
 
-* 🌍 **Multi-Language Translation** — Translate text across supported languages.
-* 🤖 **AI-Powered Translation** — Designed for intelligent and efficient language processing.
-* ⚡ **Fast & Simple** — Minimal interface for quick translations.
-* 🎨 **Streamlit Interface** — Clean and interactive web application.
-* 📝 **Easy Text Input** — Enter and translate text with ease.
-* 🔄 **Flexible Language Selection** — Select source and target languages.
-* 💻 **Cross-Platform** — Runs directly in a web browser.
-* 🧩 **Easy to Extend** — Structured for adding new languages and translation features.
+✨ Features
 
----
+- 🌍 Supports multiple languages
+- 🔄 Source and target language selection
+- 📝 Easy text input
+- ⚡ Instant translation output
+- 💻 Simple and interactive Streamlit interface
+- 📱 User-friendly design
 
-## 🛠️ Technology Stack
+🛠️ Technologies Used
 
-| Technology                  | Purpose                      |
-| --------------------------- | ---------------------------- |
-| 🐍 **Python**               | Core application development |
-| 🎈 **Streamlit**            | Web application interface    |
-| 🤖 **Translation / AI API** | Language translation         |
-| 📦 **Python Libraries**     | Supporting functionality     |
+- Python
+- Streamlit
+- Deep Translator
+- Google Translate
 
----
+📂 Project Structure
 
-## 📂 Project Structure
-
-```text
-AI-Language-Translation-Tool/
+Language-Translation-Tool/
 │
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── .gitignore             # Git ignored files
-│
-└── assets/                # Images and project assets
-```
+├── app.py
+├── requirements.txt
+└── README.md
 
----
+📦 Installation
 
+Clone the repository:
 
+git clone https://github.com/vyshu860-png/Language-Translation-Tool.git
 
-### . Install Dependencies
+Move into the project folder:
 
-```bash
+cd Language-Translation-Tool
+
+Install the required libraries:
+
 pip install -r requirements.txt
-```
 
-### . Configure API Credentials
+▶️ Run the Application
 
-If your application uses an external translation or AI API, add the required API credentials using environment variables or Streamlit secrets.
+Run the Streamlit application using:
 
-**Do not commit API keys or other sensitive credentials to GitHub.**
-
-### . Run the Application
-
-```bash
 streamlit run app.py
-```
 
-The application will open in your default web browser.
+The application will open in your browser.
 
----
+🔧 Requirements
 
-## 🖥️ Application Workflow
+Add the following libraries to "requirements.txt":
 
-```text
-Enter Text
-    ↓
-Select Source Language
-    ↓
-Select Target Language
-    ↓
-Translate
-    ↓
-Display Translate text
-example:
-input:hoe are you?
-target language:
-telugu
+streamlit
+deep-translator
 
-output:మీరు ఎలా ఉన్నారు
+💡 Example
 
+Input:
+"Hello, how are you?"
 
-> **A professional, AI-powered language translation application built with Streamlit for fast, accessible, and seamless multilingual communication.**
+Target Language:
+"Telugu"
 
-Developed by **Kunchala Naga Vaishnavi**
-**Sam AI Technologies**
+Output:
+"హలో, మీరు ఎలా ఉన్నారు?"
 
----
+🎯 Learning Outcomes
 
-## 📌 Overview
+Through this project, I gained practical experience in:
 
-The **AI Language Translation Tool** is a modern web application designed to translate text between multiple languages through a simple and intuitive interface.
+- Python programming
+- Streamlit application development
+- Language translation integration
+- User interface development
+- Deploying Python applications as web apps
 
-Built with **Python and Streamlit**, the application provides a lightweight and user-friendly experience while demonstrating the practical use of AI and language technologies.
+👩‍💻 Developer
 
-Whether you're translating a short sentence, paragraph, or larger piece of text, this tool provides a convenient way to overcome language barriers.
+Kunchala Naga Vaishnavi
 
----
+Developed as part of my internship at SAM AI Technologies.
 
-## ✨ Key Features
+📜 Project Status
 
-* 🌍 **Multi-Language Translation** — Translate text across supported languages.
-* 🤖 **AI-Powered Translation** — Designed for intelligent and efficient language processing.
-* ⚡ **Fast & Simple** — Minimal interface for quick translations.
-* 🎨 **Streamlit Interface** — Clean and interactive web application.
-* 📝 **Easy Text Input** — Enter and translate text with ease.
-* 🔄 **Flexible Language Selection** — Select source and target languages.
-* 💻 **Cross-Platform** — Runs directly in a web browser.
-* 🧩 **Easy to Extend** — Structured for adding new languages and translation features.
+✅ Completed
 
 ---
 
-## 🛠️ Technology Stack
-
-| Technology                  | Purpose                      |
-| --------------------------- | ---------------------------- |
-| 🐍 **Python**               | Core application development |
-| 🎈 **Streamlit**            | Web application interface    |
-| 🤖 **Translation / AI API** | Language translation         |
-| 📦 **Python Libraries**     | Supporting functionality     |
-
----
-
-## 📂 Project Structure
-
-```text
-AI-Language-Translation-Tool/
-│
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── .gitignore             # Git ignored files
-│
-└── assets/                # Images and project assets
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have **Python 3.9+** installed on your system.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/AI-Language-Translation-Tool.git
-cd AI-Language-Translation-Tool
-```
-
-### 2. Create a Virtual Environment
-
-**Windows:**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**macOS / Linux:**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure API Credentials
-
-If your application uses an external translation or AI API, add the required API credentials using environment variables or Streamlit secrets.
-
-**Do not commit API keys or other sensitive credentials to GitHub.**
-
-### 5. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your default web browser.
-
----
-
-## 🖥️ Application Workflow
-
-```text
-Enter Text
-    ↓
-Select Source Language
-    ↓
-Select Target Language
-    ↓
-Translate
-    ↓
-Display Translated Text
-```
-
----
-
-## 📸 Screenshots
-
-Add screenshots of the Streamlit application here to showcase the user interface.
-
-```text
-📷 Add your application screenshots here
-```
-
----
-
-## 🔐 Security
-
-* Keep API keys private.
-* Use environment variables or Streamlit secrets for credentials.
-* Never upload `.env` files containing sensitive information.
-* Add sensitive configuration files to `.gitignore`.
-
----
-
-## 🔮 Future Enhancements
-
-* 🎙️ Voice-to-text translation
-* 🔊 Text-to-speech output
-* 📄 Document translation
-* 📚 Translation history
-* 🤖 AI-powered contextual translation
-* 🌐 Additional language support
-* 📱 Improved mobile experience
-* ☁️ Cloud deployment
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Make your changes.
-4. Commit your changes.
-5. Push the branch.
-6. Open a Pull Request.
-
----
-
-## 👩‍💻 Author
-
-### **Kunchala Naga Vaishnavi**
-
-**Sam AI Technologies**
-
-Passionate about developing practical AI-powered solutions that make technology more accessible and useful.
-
----
-
-## 📄 License
-
-This project is available under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you find this project useful, please consider giving it a **⭐ Star** on GitHub.
-
----
-
-### 🌐 Built with Python & Streamlit
-
- Sam AI Technologies — Kunchala Naga Vaishnavi**
-
-
-> **A professional, AI-powered language translation application built with Streamlit for fast, accessible, and seamless multilingual communication.**
-
-Developed by **Kunchala Naga Vaishnavi**
-**Sam AI Technologies**
-
----
-
-## 📌 Overview
-
-The **AI Language Translation Tool** is a modern web application designed to translate text between multiple languages through a simple and intuitive interface.
-
-Built with **Python and Streamlit**, the application provides a lightweight and user-friendly experience while demonstrating the practical use of AI and language technologies.
-
-Whether you're translating a short sentence, paragraph, or larger piece of text, this tool provides a convenient way to overcome language barriers.
-
----
-
-## ✨ Key Features
-
-* 🌍 **Multi-Language Translation** — Translate text across supported languages.
-* 🤖 **AI-Powered Translation** — Designed for intelligent and efficient language processing.
-* ⚡ **Fast & Simple** — Minimal interface for quick translations.
-* 🎨 **Streamlit Interface** — Clean and interactive web application.
-* 📝 **Easy Text Input** — Enter and translate text with ease.
-* 🔄 **Flexible Language Selection** — Select source and target languages.
-* 💻 **Cross-Platform** — Runs directly in a web browser.
-* 🧩 **Easy to Extend** — Structured for adding new languages and translation features.
-
----
-
-## 🛠️ Technology Stack
-
-| Technology                  | Purpose                      |
-| --------------------------- | ---------------------------- |
-| 🐍 **Python**               | Core application development |
-| 🎈 **Streamlit**            | Web application interface    |
-| 🤖 **Translation / AI API** | Language translation         |
-| 📦 **Python Libraries**     | Supporting functionality     |
-
----
-
-## 📂 Project Structure
-
-```text
-AI-Language-Translation-Tool/
-│
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-├── .gitignore             # Git ignored files
-│
-└── assets/                # Images and project assets
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have **Python 3.9+** installed on your system.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/AI-Language-Translation-Tool.git
-cd AI-Language-Translation-Tool
-```
-
-### 2. Create a Virtual Environment
-
-**Windows:**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**macOS / Linux:**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure API Credentials
-
-If your application uses an external translation or AI API, add the required API credentials using environment variables or Streamlit secrets.
-
-**Do not commit API keys or other sensitive credentials to GitHub.**
-
-### 5. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-The application will open in your default web browser.
-
----
-
-## 🖥️ Application Workflow
-
-```text
-Enter Text
-    ↓
-Select Source Language
-    ↓
-Select Target Language
-    ↓
-Translate
-    ↓
-Display Translated Text
-```
-
----
-
-## 📸 Screenshots
-
-Add screenshots of the Streamlit application here to showcase the user interface.
-
-```text
-📷 Add your application screenshots here
-```
-
----
-
-## 🔐 Security
-
-* Keep API keys private.
-* Use environment variables or Streamlit secrets for credentials.
-* Never upload `.env` files containing sensitive information.
-* Add sensitive configuration files to `.gitignore`.
-
----
-
-## 🔮 Future Enhancements
-
-* 🎙️ Voice-to-text translation
-* 🔊 Text-to-speech output
-* 📄 Document translation
-* 📚 Translation history
-* 🤖 AI-powered contextual translation
-* 🌐 Additional language support
-* 📱 Improved mobile experience
-* ☁️ Cloud deployment
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Make your changes.
-4. Commit your changes.
-5. Push the branch.
-6. Open a Pull Request.
-
----
-
-## 👩‍💻 Author
-
-### **Kunchala Naga Vaishnavi**
-
-**Sam AI Technologies**
-
-Passionate about developing practical AI-powered solutions that make technology more accessible and useful.
-
----
-
-## 📄 License
-
-This project is available under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you find this project useful, please consider giving it a **⭐ Star** on GitHub.
-
----
-
-### 🌐 Built with Python & Streamlit
-
-**© 2026 Sam AI Technologies — Kunchala Naga Vaishnavi**
-
-
-## 🔐 Security
-
-* Keep API keys private.
-* Use environment variables or Streamlit secrets for credentials.
-* Never upload `.env` files containing sensitive information.
-* Add sensitive configuration files to `.gitignore`.
-
----
-
-## 🔮 Future Enhancements
-
-* 🎙️ Voice-to-text translation
-* 🔊 Text-to-speech output
-* 📄 Document translation
-* 📚 Translation history
-* 🤖 AI-powered contextual translation
-* 🌐 Additional language support
-* 📱 Improved mobile experience
-* ☁️ Cloud deployment
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Make your changes.
-4. Commit your changes.
-5. Push the branch.
-6. Open a Pull Request.
-
----
-
-## 👩‍💻 Author
-
-### **Kunchala Naga Vaishnavi**
-
-**Sam AI Technologies**
-
-Passionate about developing practical AI-powered solutions that make technology more accessible and useful.
-
----
-
-## 📄 License
-
-This project is available under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you find this project useful, please consider giving it a **⭐ Star** on GitHub.
-
----
-
-### 🌐 Built with Python & Streamlit
-
-**© 2026 Sam AI Technologies — Kunchala Naga Vaishnavi**
-
-
+⭐ If you find this project useful, consider giving the repository a star!
