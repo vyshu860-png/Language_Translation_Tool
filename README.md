@@ -56,12 +56,6 @@ AI-Language-Translation-Tool/
 
 ---
 
-#. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/AI-Language-Translation-Tool.git
-cd AI-Language-Translation-Tool
-```
 
 
 ### . Install Dependencies
